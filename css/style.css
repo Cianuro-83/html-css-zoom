@@ -5,6 +5,7 @@ RESET RULES
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -23,12 +24,65 @@ menu {
 .container {
   max-width: 900px;
   margin: 0 auto;
+  background-color: antiquewhite;
 }
 
 img {
   max-width: 100%;
+  position: relative;
+}
+body {
+  background-color: black;
+}
+/**************************
+FLEX RULES
+  ***************************/
+.row {
+  display: flex;
+}
+/**************************
+HEADER RULES
+  ***************************/
+.top-cmd {
+  position: relative;
+}
+li {
+  display: inline-block;
+  line-height: 2em;
+  background-color: #4a4a4a;
+}
+.top-icon {
+  position: absolute;
+  right: 2px;
+  top: 5px;
 }
 
 /**************************
-RESET RULES
+MAIN RULES
   ***************************/
+.card {
+  /* background-color: rgb(82, 82, 80); */
+  /* border: 2px solid white; */
+  justify-content: space-between;
+  flex-basis: calc(100% / 7);
+  flex-grow: 5px;
+  align-items: center;
+}
+.card {
+  position: relative;
+}
+.mic-name {
+  position: absolute;
+  bottom: 0px;
+  background-color: #616c79;
+}
+.contenitore {
+  max-height: 100vh;
+  padding: 45px 30px 30px 30px;
+}
+.s2,
+.s3,
+.s4,
+.s5 {
+  padding-top: 5px;
+}
