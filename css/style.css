@@ -48,6 +48,10 @@ HEADER RULES
 }
 li {
   display: inline-block;
+}
+.icon-h2,
+.icon-h1 {
+  display: inline-block;
   line-height: 2em;
   background-color: #4a4a4a;
 }
@@ -85,4 +89,55 @@ MAIN RULES
 .s4,
 .s5 {
   padding-top: 5px;
+}
+/**************************
+FOOTER RULES
+  ***************************/
+.main-footer {
+  background-color: #222222;
+}
+
+.f-icons-sx {
+  width: 25%;
+  background-color: #222222;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.f-icons-center {
+  width: 50%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-icons-dx {
+  width: 25%;
+  background-color: #222222;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer-ico {
+  text-align: center;
+  font-size: 10px;
+}
+.footer-text {
+  text-align: center;
+  font-size: 6px;
+}
+.col-f {
+  padding: 0px 2px;
+}
+.share-video {
+  color: #4ccc05;
+}
+.exit {
+  color: red;
+  background-color: #4a4a4a;
+  line-height: 3em;
+  padding: 0px 10px;
+}
+footer {
+  display: flex;
 }
